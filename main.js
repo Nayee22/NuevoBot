@@ -316,7 +316,7 @@ global.reloadHandler = async function(restatConn) {
   }
 
   conn.welcome = '*╔══════════════*\n*╟❧ @subject*\n*╠══════════════*\n*╟❧ @user*\n*╟❧ 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾/𝙰* \n*║*\n*╟❧ 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾:*\n\n@desc\n\n*║*\n*╟❧ 𝙳𝙸𝚂𝙵𝚁𝚄𝚃𝙰 𝚃𝚄 𝙴𝚂𝚃𝙰𝙳𝙸𝙰!!*\n*╚══════════════*';
-  conn.bye = '*╔══════════════*\n*║➤ @user*\n*║➤ABANDONO EL GRUPO  👋🏻* \n*║➤SE FUE PARA NO VOLVER ESE FANTASMA 👻* \n*╚══════════════*';
+  conn.bye = '*╔══════════════*\n*║➤ @user*\n*║➤ABANDONO EL GRUPO  👋🏻* \n*║➤SE FUE PARA NO VOLVER ESE FANTASMA 👻* \n*─⟢⟨jsj⟩⟣─*';
   conn.spromote = '*𝐇𝐨𝐥𝐚 𝐁𝐨𝐭 𝐝𝐞 𝐄𝐳𝐞𝐪𝐮𝐢𝐞𝐥 𝐢𝐧𝐟𝐨𝐦𝐚*\n*𝐪𝐮𝐞 @user 𝐚𝐡𝐨𝐫𝐚 𝐭𝐢𝐞𝐧𝐞 𝐞𝐥 𝐩𝐨𝐝𝐞𝐫 𝐝𝐞 𝐥𝐨𝐬 𝐚𝐝𝐦𝐢𝐧𝐬 𝐚𝐜𝐜𝐢𝐨́𝐧 𝐫𝐞𝐚𝐥𝐢𝐳𝐚𝐝𝐚 𝐩𝐨𝐫:@user*';
   conn.sdemote = '*𝐁𝐨𝐭 𝐝𝐞 𝐄𝐳𝐞𝐪𝐮𝐢𝐞𝐥 𝐢𝐧𝐟𝐨𝐦𝐚 𝐪𝐮𝐞: @user*\n*𝐚𝐛𝐚𝐧𝐝𝐨𝐧𝐨́ 𝐞𝐥 𝐠𝐫𝐮𝐩𝐨 𝐝𝐞 𝐚𝐝𝐦𝐢𝐧𝐬 𝐣𝐚𝐣𝐚𝐣𝐚 𝐧𝐨 𝐟𝐮𝐞 𝐛𝐮𝐞𝐧 𝐚𝐝𝐦𝐢𝐧*';
   conn.sDesc = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n*𝙽𝚄𝙴𝚅𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* @desc';
