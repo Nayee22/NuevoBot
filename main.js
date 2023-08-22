@@ -317,12 +317,12 @@ global.reloadHandler = async function(restatConn) {
 
   conn.welcome = '*╔══════════════*\n*╟❧ @subject*\n*╠══════════════*\n*╟❧ @user*\n*╟❧ 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾/𝙰* \n*║*\n*╟❧ 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾:*\n\n@desc\n\n*║*\n*╟❧ 𝙳𝙸𝚂𝙵𝚁𝚄𝚃𝙰 𝚃𝚄 𝙴𝚂𝚃𝙰𝙳𝙸𝙰!!*\n*╚══════════════*';
   conn.bye = '*╔══════════════*\n*║➤ @user*\n*║➤ABANDONO EL GRUPO  👋🏻* \n*║➤SE FUE PARA NO VOLVER ESE FANTASMA 👻* \n*─⟢⟨𝐁𝐲 : 𝐄𝐳𝐞𝐪𝐮𝐢𝐞𝐥⟩⟣─*';
-  conn.spromote = '*𝐇𝐨𝐥𝐚 𝐁𝐨𝐭 𝐝𝐞 𝐄𝐳𝐞𝐪𝐮𝐢𝐞𝐥 𝐢𝐧𝐟𝐨𝐦𝐚*\n*𝐪𝐮𝐞 @user 𝐚𝐡𝐨𝐫𝐚 𝐭𝐢𝐞𝐧𝐞 𝐞𝐥 𝐩𝐨𝐝𝐞𝐫 𝐝𝐞 𝐥𝐨𝐬 𝐚𝐝𝐦𝐢𝐧𝐬 𝐚𝐜𝐜𝐢𝐨́𝐧 𝐫𝐞𝐚𝐥𝐢𝐳𝐚𝐝𝐚 𝐩𝐨𝐫:@user*';
-  conn.sdemote = '*𝐁𝐨𝐭 𝐝𝐞 𝐄𝐳𝐞𝐪𝐮𝐢𝐞𝐥 𝐢𝐧𝐟𝐨𝐦𝐚 𝐪𝐮𝐞: @user*\n*𝐚𝐛𝐚𝐧𝐝𝐨𝐧𝐨́ 𝐞𝐥 𝐠𝐫𝐮𝐩𝐨 𝐝𝐞 𝐚𝐝𝐦𝐢𝐧𝐬 𝐣𝐚𝐣𝐚𝐣𝐚 𝐧𝐨 𝐟𝐮𝐞 𝐛𝐮𝐞𝐧 𝐚𝐝𝐦𝐢𝐧*';
-  conn.sDesc = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n*𝙽𝚄𝙴𝚅𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* @desc';
-  conn.sSubject = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n*𝙽𝚄𝙴𝚅𝙾 𝙽𝙾𝙼𝙱𝚁𝙴:* @subject';
-  conn.sIcon = '*𝚂𝙴 𝙷𝙰 𝙲𝙰𝙼𝙱𝙸𝙰𝙳𝙾 𝙻𝙰 𝙵𝙾𝚃𝙾 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*';
-  conn.sRevoke = '*𝚂𝙴 𝙷𝙰 𝙰𝙲𝚃𝚄𝙰𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙻 𝙻𝙸𝙽𝙺 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*\n*𝙻𝙸𝙽𝙺 𝙽𝚄𝙴𝚅𝙾:* @revoke';
+  conn.spromote = '*𝙃𝙊𝙇𝘼 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 𝙀𝙎𝙏𝘼𝙎 𝙄𝙉𝙄𝘾𝙄𝘼𝙉𝘿𝙊 𝘽𝙊𝙏 𝘿𝙀 𝙀𝙕𝙀𝙌𝙐𝙄𝙀𝙇*\n*𝙂𝙍𝘼𝘾𝙄𝘼𝙎 𝙋𝙊𝙍 𝙎𝙀𝙂𝙐𝙄𝙍 𝙋𝙍𝙀𝙁𝙄𝙍𝙄𝙀𝙉𝘿𝙊 𝙀𝙎𝙏𝙀 𝘽𝙊𝙏*\n*𝙀𝙎𝙋𝙀𝙍𝙊́ 𝙇𝙊 𝘿𝙄𝙎𝙁𝙍𝙐𝙏𝙀𝙎 𝘼𝙇 𝙈𝘼𝙓𝙄𝙈𝙊 🤖🤝🏻*';
+  conn.sdemote =
+  conn.sDesc = //'*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n*𝙽𝚄𝙴𝚅𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* @desc';
+  conn.sSubject = //'*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n*𝙽𝚄𝙴𝚅𝙾 𝙽𝙾𝙼𝙱𝚁𝙴:* @subject';
+  conn.sIcon = //'*𝚂𝙴 𝙷𝙰 𝙲𝙰𝙼𝙱𝙸𝙰𝙳𝙾 𝙻𝙰 𝙵𝙾𝚃𝙾 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*';
+  conn.sRevoke = //'*𝚂𝙴 𝙷𝙰 𝙰𝙲𝚃𝚄𝙰𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙻 𝙻𝙸𝙽𝙺 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*\n*𝙻𝙸𝙽𝙺 𝙽𝚄𝙴𝚅𝙾:* @revoke';
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
