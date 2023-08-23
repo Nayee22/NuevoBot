@@ -20,16 +20,15 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║➤ *𝗛ola, ${taguser}*
-║-------------------------
-║➤ *Creador:*  Ezequiel
-║➤ *Numero de mi creador:* wa.me/528112383201
-║➤ *Para comprar el bot:* wa.me/528112383201
-║➤ *PayPal:* https://www.paypal.me/EmersonBot
-║➤ *Fecha:* ${date}
-║➤ *Tiempo activo:* ${uptime}
-║➤ *Usuarios:* ${rtotalreg}
+    const str = `╭═══〘 By : Ezequiel 〙══╮
+➤ *𝗛ola, ${taguser}*
+➤ *Creador:*  Ezequiel
+➤ *Numero de mi creador:* wa.me/528112383201
+➤ *Para comprar el bot:* wa.me/528112383201
+➤ *PayPal:* https://www.paypal.me/EmersonBot
+➤ *Fecha:* ${date}
+➤ *Tiempo activo:* ${uptime}
+➤ *Usuarios:* ${rtotalreg}
 ╰---
 
 ┏━━━━━━━━━━━━━━━━┓
@@ -74,9 +73,11 @@ ${readMore}
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
-┃ *< 𝕌ℕ𝔼 𝕌ℕ 𝔹𝕆𝕋 𝔸 𝕋𝕌 𝔾ℝ𝕌ℙ𝕆 />*
+┃ *< TAMBIEN QUIERES UM BOT ? />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 👽 _${usedPrefix}join *<enlace / link / url>*_
+┣ ඬ⃟ 🗣️ _${usedPrefix}preciobot_
+┣ ඬ⃟ 🗣️ _${usedPrefix}información_
+┣ ඬ⃟ 🗣️ _${usedPrefix} contactame :wa.me/528112383201_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
