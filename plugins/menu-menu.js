@@ -31,18 +31,18 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ➤ *Usuarios:* ${rtotalreg}
 ╰---
 
+*< 𝕀ℕ𝔽𝕆 𝔻𝔼𝕃 𝕌𝕊𝕌𝔸ℝ𝕀𝕆 />*
 ┏━━━━━━━━━━━━━━━━┓
-┃ *< 𝕀ℕ𝔽𝕆 𝔻𝔼𝕃 𝕌𝕊𝕌𝔸ℝ𝕀𝕆 />*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ *🎖️ Nivel:* ${level}
-┣ *🧰 Experiencia:* ${exp}
-┣ *⚓ Rango:* ${role}
-┣ *💎 Diamantes:* ${limit}
-┣ *👾 EzeCoins:* ${money}
-┣ *🪙 Tokens:* ${joincount}
-┣ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+*🎖️ Nivel:* ${level}
+*🧰 Experiencia:* ${exp}
+*⚓ Rango:* ${role}
+*💎 Diamantes:* ${limit}
+*👾 EzeCoins:* ${money}
+*🪙 Tokens:* ${joincount}
+*🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ┗━━━━━━━━━━━━━━━━┛
 ${readMore}
+
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝔹𝕆𝕋 𝕆𝔽ℂ 𝕆 𝕊𝕌𝔹 𝔹𝕆𝕋 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
