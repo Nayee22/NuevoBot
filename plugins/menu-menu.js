@@ -43,40 +43,37 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┗━━━━━━━━━━━━━━━━┛
 ${readMore}
 
+*SUD BOT*
 ┏━━━━━━━━━━━━━━━━┓
-┃ *< 𝔹𝕆𝕋 𝕆𝔽ℂ 𝕆 𝕊𝕌𝔹 𝔹𝕆𝕋 />*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣ ${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${global.conn.user.jid.split`@`[0]}`) || '*Este es el Bot oficial*'}
 ┗━━━━━━━━━━━━━━━━┛
 
+*SOLUCION A ERRORES*
 ┏━━━━━━━━━━━━━━━━┓
-┃ *< 𝕊𝕆𝕃𝕌ℂ𝕀𝕆ℕ 𝔸 𝔼ℝℝ𝕆ℝ𝔼𝕊 />*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣➤ Mensajes en espera
-┣ ඬ⃟ ⭐ _${usedPrefix}fixmsgespera_
-┣➤ Mensajes en espera (owner)
-┣ ඬ⃟ ⭐ _${usedPrefix}dsowner_
+➤Mensajes en espera
+⭐ _${usedPrefix}fixmsgespera_
+➤ Mensajes en espera (owner)
+⭐ _${usedPrefix}dsowner_
 ┗━━━━━━━━━━━━━━━━┛
 
+*INFORMACIÓN DEL BOT*
 ┏━━━━━━━━━━━━━━━━┓
-┃ *< 𝕀ℕ𝔽𝕆 𝔹𝕆𝕋 />*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 💟 _${usedPrefix}terminosycondiciones_
-┣ ඬ⃟ 💟 _${usedPrefix}grupos_
-┣ ඬ⃟ 💟 _${usedPrefix}estado_
-┣ ඬ⃟ 💟 _${usedPrefix}infobot_
-┣ ඬ⃟ 💟 _${usedPrefix}speedtest_
-┣ ඬ⃟ 💟 _${usedPrefix}donar_
-┣ ඬ⃟ 💟 _${usedPrefix}owner_
-┣ ඬ⃟ 💟 _${usedPrefix}script_
-┣ ඬ⃟ 💟 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+🗣️ _${usedPrefix}terminosycondiciones_
+🗣️ _${usedPrefix}grupos_
+🗣️ _${usedPrefix}estado_
+🗣️ _${usedPrefix}infobot_
+🗣️ _${usedPrefix}speedtest_
+🗣️ _${usedPrefix}donar_
+🗣️ _${usedPrefix}owner_
+🗣️ _${usedPrefix}script_
+🗣️ _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ┗━━━━━━━━━━━━━━━━┛
 
 *< TAMBIEN QUIERES UM BOT ? />*
 ┏━━━━━━━━━━━━━━━━┓
-🗣️ _${usedPrefix}preciobot_
-🗣️ _${usedPrefix}información_
-🗣️ _${usedPrefix} contactame :wa.me/528112383201_
+🎁 _${usedPrefix}preciobot_
+🎁 _${usedPrefix}información_
+🎁 _${usedPrefix} contactame :wa.me/528112383201_
 ┗━━━━━━━━━━━━━━━━┛
 
 *< 𝕊𝔼ℝ𝔹𝕆𝕋 - 𝕁𝔸𝔻𝕀𝔹𝕆𝕋 />*
@@ -86,42 +83,41 @@ ${readMore}
 🤖 _${usedPrefix}bots_
 ┗━━━━━━━━━━━━━━━━┛  
 
+*JUEGOS*
 ┏━━━━━━━━━━━━━━━━┓
-┃ *< 𝕁𝕌𝔼𝔾𝕆𝕊 />*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 🎖️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}prostituto *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}prostituta *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}gay2 *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}lesbiana *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}pajero *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}pajera *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}puto *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}puta *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}manco *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}manca *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}rata *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}love *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}doxear *<nombre / @tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}pregunta *<texto>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}suitpvp *<@tag>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}slot *<apuesta>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}ttt *<nombre sala>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}delttt_
-┣ ඬ⃟ 🎖️ _${usedPrefix}acertijo_
-┣ ඬ⃟ 🎖️ _${usedPrefix}simi *<texto>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}top *<texto>*_
-┣ ඬ⃟ 🎖️ _${usedPrefix}topgays_
-┣ ඬ⃟ 🎖️ _${usedPrefix}topotakus_
-┣ ඬ⃟ 🎖️ _${usedPrefix}formarpareja_
-┣ ඬ⃟ 🎖️ _${usedPrefix}verdad_
-┣ ඬ⃟ 🎖️ _${usedPrefix}reto_
-┣ ඬ⃟ 🎖️ _${usedPrefix}cancion_
-┣ ඬ⃟ 🎖️ _${usedPrefix}pista_
-┣ ඬ⃟ 🎖️ _${usedPrefix}akinator_
-┣ ඬ⃟ 🎖️ _${usedPrefix}wordfind_
+🎮 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
+🎮 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
+🎮 _${usedPrefix}ppt *<papel / tijera /piedra>*_
+🎮 _${usedPrefix}prostituto *<nombre / @tag>*_
+🎮 _${usedPrefix}prostituta *<nombre / @tag>*_
+🎮 _${usedPrefix}gay2 *<nombre / @tag>*_
+🎮 _${usedPrefix}lesbiana *<nombre / @tag>*_
+🎮 _${usedPrefix}pajero *<nombre / @tag>*_
+🎮 _${usedPrefix}pajera *<nombre / @tag>*_
+🎮 _${usedPrefix}puto *<nombre / @tag>*_
+🎮 _${usedPrefix}puta *<nombre / @tag>*_
+🎮 _${usedPrefix}manco *<nombre / @tag>*_
+🎮 _${usedPrefix}manca *<nombre / @tag>*_
+🎮 _${usedPrefix}rata *<nombre / @tag>*_
+🎮 _${usedPrefix}love *<nombre / @tag>*_
+🎮 _${usedPrefix}doxear *<nombre / @tag>*_
+🎮 _${usedPrefix}pregunta *<texto>*_
+🎮 _${usedPrefix}suitpvp *<@tag>*_
+🎮 _${usedPrefix}slot *<apuesta>*_
+🎮 _${usedPrefix}ttt *<nombre sala>*_
+🎮 _${usedPrefix}delttt_
+🎮 _${usedPrefix}acertijo_
+🎮 _${usedPrefix}simi *<texto>*_
+🎮 _${usedPrefix}top *<texto>*_
+🎮 _${usedPrefix}topgays_
+🎮 _${usedPrefix}topotakus_
+🎮 _${usedPrefix}formarpareja_
+🎮 _${usedPrefix}verdad_
+🎮 _${usedPrefix}reto_
+🎮 _${usedPrefix}cancion_
+🎮 _${usedPrefix}pista_
+🎮 _${usedPrefix}akinator_
+🎮 _${usedPrefix}wordfind_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
